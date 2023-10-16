@@ -11,7 +11,7 @@ body {
 .wrapper {
   width: 90%;
   max-width: 34.37em;
-  max-height: 90vh;
+  /* max-height: 90vh; */
   background-color: #ffffff;
   position: absolute;
   transform: translate(-50%, -50%);
@@ -67,7 +67,16 @@ img {
   color: #202020;
   font-weight: 500;
 }
-
+.formclass{
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+  
+}
+.mainflex{
+  display: flex;
+}
 @media screen and (max-width: 768px) {
   .wrapper {
     font-size: 12px;

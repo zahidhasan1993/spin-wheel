@@ -12,7 +12,17 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div>
+    <div class="mainflex">
+      <div>
+        <form onsubmit="handleSubmit()" class="formclass">
+          <input type="text" name="name1" style="border-radius: 5px; border: none;">
+          <input type="text" name="name2" style="border-radius: 5px; border: none;">
+          <input type="text" name="name3" style="border-radius: 5px; border: none;">
+          <input type="text" name="name4" style="border-radius: 5px; border: none;">
+          <input type="text" name="name5" style="border-radius: 5px; border: none;">
+          <input type="text" name="name6" style="border-radius: 5px; border: none;">
+        </form>
+      </div>
       <div class="wrapper">
         <div class="container">
           <canvas id="wheel"></canvas>
@@ -23,16 +33,7 @@
           <p>Click On The Spin Button To Start</p>
         </div>
       </div>
-      <div>
-        <form onsubmit="handleSubmit()" class="">
-          <input type="text" name="name1" class="">
-          <input type="text" name="name2" class="">
-          <input type="text" name="name3" class="">
-          <input type="text" name="name4" class="">
-          <input type="text" name="name5" class="">
-          <input type="text" name="name6" class="">
-        </form>
-      </div>
+   
     </div>
     <!-- Chart JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"></script>
