@@ -74,6 +74,19 @@ img {
   gap: .5rem;
   
 }
+.submitbtn{
+  padding: 10px;
+  background-color: black;
+  color: #ffffff;
+  border: none;
+  border-radius: 20px;
+  transition: background-color 0.3s ease;
+}
+.submitbtn:hover{
+  background-color: white;
+  color: black;
+ 
+}
 .mainflex{
   display: flex;
 }
