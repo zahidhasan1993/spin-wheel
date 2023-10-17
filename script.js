@@ -2,6 +2,7 @@ const wheel = document.getElementById("wheel");
 const spinBtn = document.getElementById("spin-btn");
 const finalValue = document.getElementById("final-value");
 
+
 // Object that stores values of minimum and maximum angle for a value
 let person1 = "";
 let person2 = "";
@@ -99,6 +100,8 @@ const valueGenerator = (angleValue) => {
   for (let i of rotationValues) {
     //if the angleValue is between min and max then display it
     if (angleValue >= i.minDegree && angleValue <= i.maxDegree) {
+      Swal.fire(`The Winnes is : ${i.value}`)
+
       finalValue.innerHTML = `<p>Winner is: ${i.value}</p>`;
       spinBtn.disabled = false;
       break;
