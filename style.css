@@ -76,15 +76,15 @@ img {
 }
 .submitbtn{
   padding: 10px;
-  background-color: black;
-  color: #ffffff;
+  background-color: white;
+  color: black;
   border: none;
   border-radius: 20px;
   transition: background-color 0.3s ease;
 }
 .submitbtn:hover{
-  background-color: white;
-  color: black;
+  background-color: black;
+  color: white;
  
 }
 .mainflex{
